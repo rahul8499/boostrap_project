@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    .back{
+     
+      /* background-image: url("contact-us-customer-support-hotline-people-connect-call-custo-130157516.jpg"); */
+ background-image: url(background_contact\ _image.webp) ;
+      height: 550px;
+      
+  background-size: cover;
+      color: rgb(7, 7, 7);
+     
+      margin-top: 30px;
+    }
+    .zoom:hover{
+     
+     transform: scale(1.1);
+    }
+ 
+  </style>
+
+  <body>
+  
+
+      <nav class="navbar navbar-dark bg-black fixed-top fw-bold">
+        <div class="container-fluid" >
+          <img src="nav_logo.png" alt="" height="90px" width="100px">
+         
+          <h2 style="color:white;"  >A.J CONSTRUCTION</h2>
+  
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+          
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+
+          
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            
+            id="offcanvasDarkNavbar"
+           
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                A.J CONSTRUCTION
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+             
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">SERVICES</a>
+                </li>
+                  
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT US</a>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide mt-5 "
+    
+  
+    >
+
+      <div class="carousel-inner ">
+        <div class="carousel-item active fw-bold" >
+          <img src="slide1.jpg" class="d-block w-100" alt="..." height="700px" />
+          <div class="carousel-caption d-none d-md-block ">
+            <h5 class="text-white">YOUR DREAM HOUSE</h5>
+            <p class="text-dark">
+              Some representative placeholder content for the first slide.
+            </p>
+            <button type="button" class="btn btn-warning rounded-pill">
+              readmore
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item fw-bold">
+          <img src="slide2.jpg" class="d-block w-100" alt="..." height="700px" />
+          <div class="carousel-caption d-none d-md-block ">
+            <h5 class="text-white">ALWAY DEDICATED</h5>
+            <p class="text-dark">
+              Some representative placeholder content for the second slide.
+            </p>
+            <button type="button" class="btn btn-warning rounded-pill">
+              readmore
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item fw-bold">
+          <img
+            src="slide3.jpg"
+            class="d-block w-100"
+            alt="..."
+            height="700px"
+          />
+          <div class="carousel-caption d-none d-md-block ">
+            <h5 class="text-white">TRUE CONSTRUCTION</h5>
+            <p class="text-dark">
+              Some representative placeholder content for the third slide.
+            </p>
+            <button type="button" class="btn btn-warning rounded-pill">
+              readmore
+            </button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    
+
+
+  <div style="display:flex;  margin-top: 50px;" >
+    <img src="service_priovider.jpg" alt="" height="350px" width="600px" style="margin-left:70px ;" >
+    <div style="text-align:center ;">
+        <h2 style="text-align:center ; margin-top:30px;"> We Provided Best Quality</h2>
+        
+        <p style="font-style:italic; font-size: 20px;" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo placeat eum vitae iure dolorum aliquid vero harum exercitationem, quo odio animi facere, aperiam ipsum quos a illum cumque enim? Magni!</p>
+           
+        <button type="button" class="btn btn-outline-danger">readmore</button>
+    </div>
+       </div>
+
+
+
+
+
+
+    <hr>
+    <div>
+      <h1 style="text-align: center">OUR SERVICES</h1>
+      <div class="container mt-5">
+        <div class="row mx-5">
+          <div class="col-lg-4">
+           <img src="our_service1.jpg"  class="bd-placeholder-img rounded-circle"     width="140"
+           height="140" alt="">
+      
+
+            <h2 class="fw-normal">Building Drawings</h2>
+            <p style="font-style: italic; font-size: 18px;">
+              Some representative placeholder content for the three columns of
+              text below the carousel. This is the first column.
+            </p>
+            <button type="button" class="btn btn-outline-primary">
+              Primary
+            </button>
+            <!-- <p><a class="btn btn-secondary" href="#">View details »</a></p> -->
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="our_service2.jpg"  class="bd-placeholder-img rounded-circle"     width="140"
+            height="140" alt="">
+      
+
+            <h2 class="fw-normal">Painting Constructions</h2>
+            <p style="font-style: italic; font-size: 18px;">
+              Another exciting bit of representative placeholder content. This
+              time, we've moved on to the second column.
+            </p>
+            <button type="button" class="btn btn-outline-primary ">
+              Primary
+            </button>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="our_service3.jpg"  class="bd-placeholder-img rounded-circle"     width="140"
+            height="140" alt="">
+      
+        
+
+            <h2 class="fw-normal">Repairing Constructions</h2>
+            <p style="font-style: italic; font-size: 18px;">
+              Another exciting bit of representative placeholder content. This
+              time, we've moved on to the second column.
+            </p>
+            <button type="button" class="btn btn-outline-primary ">
+              Primary
+            </button>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+      </div>
+    </div>
+
+
+
+ 
+    <div>
+      
+      <div class="container mt-5" style="text-align:center ;">
+        <h1 >Our Latest Projects</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, ullam quae? Architecto porro error provident debitis aliquam. Veritatis molestiae reprehenderit, delectus incidunt distinctio et cupiditate sit dolore velit hic eum rem aliquam deleniti est repellat, quaerat neque illo repudiandae libero quam asperiores</p>  
+  
+      </div>
+  
+      <div class="mt-4">
+
+        <img src="latest_projec1.jpg" alt="" height="400px" width="608px" class="zoom">
+        <img src="slide2.jpg" alt="" height="400px" width="608px"class="zoom">
+        <img src="latest_project3.webp" alt="" height="400px" width="608px" class="zoom">
+      </div>
+    
+    </div>
+  
+   
+    
+
+
+<div class="back w-100 "  >
+  <h1 style="text-align:center ; color: rgb(6, 6, 6);font-weight: bold;" class="mt-5">Contact Us</h1>
+  <div class="mb-3 d-grid gap-2 col-6 mx-auto">
+    <label for="exampleFormControlInput1" class="form-label">Enter Your Name</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Name" style="border:2px solid black ;">
+  </div>
+
+  <div class="mb-3 d-grid gap-2 col-6 mx-auto" >
+    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Phone Number" style="border:2px solid black ;" >
+  </div>
+
+
+
+  <div class="mb-3 d-grid gap-2 col-6 mx-auto">
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" style="border:2px solid black ;">
+  </div>
+  <div class="mb-3 d-grid gap-2 col-6 mx-auto">
+    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+    
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="border:2px solid black ;"></textarea >
+    
+  </div> 
+
+
+  <div class="d-grid gap-2 col-6 mx-auto">
+    
+    <button class="btn btn-outline-success" type="button" style="border: 2px solid black; color: black; font-weight: bold;">Submit</button>
+  </div>
+
+ 
+</div>
+   
+     <div class="container-fluid bg-black d-flex" style="color:white ;">
+       <img src= "aj-letter-logo-design-black-background-aj-creative-initials-letter-logo-concept-aj-letter-design-aj-letter-logo-design-black-221178978.jpg" width="80" height="80px">
+        <h5p style="margin:28px ;">© 2022 Company, Inc</h5p>
+        <div class=" col-md-9 justify-content-end d-flex" style="align-items:center;">
+          <img src="whatsapp_footer.png" alt="" height="60px" width="60px">
+          <img src="insta_footer.png" height="40px" width="40px" alt="">
+          <img src="facebbok_footer.jpg" height="50px" width="50px" alt="">
+        </div>
+      
+      </div>
+     
+   
+
+   
+  
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
